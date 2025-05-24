@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login HTML Page</title>
+</head>
+<body>
+
+    <br>
+    <br>
+    <center>
+        <table border="1" cellpadding="50" cellspacing="0">
+            <tr>
+                <h1>Login Page</h1>
+                <td>
+                    <center>
+                    <form action="./loginsucess.html" method="get">
+                        <input type="text" placeholder="Enter Uesername" pattern="[a-z]+" name="username" required> <br> <br>
+                        <input type="password" placeholder="Enter Password" name="password" pattern="(?= .*[a-z])(?= .*[A-Z])(?= .*[0-9])(?= .*[@$&%]).{8,16}"required> <br> <br>
+                        <input type="submit" value="Login"> <br> <br>
+                    </form>
+                   </center>
+                </td>
+            </tr>
+        </table>
+        <a href="./forgot.html">Forgot</a> &nbsp; &nbsp; &nbsp;
+        <a href="./register.html">Register</a>
+    </center>
+</body>
+</html>
